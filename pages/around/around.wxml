@@ -1,0 +1,17 @@
+<!--pages/around/around.wxml-->
+<view class='mhead'>
+  <text>{{listname}}</text>
+</view>
+ <view class='main'>
+    <view class='fooditem'  wx:for="{{food}}" wx:key="_id">
+      <view class='fm'>
+        <image src='{{item.f_src}}' mode='aspectFill'></image>
+      </view>
+      <view class='desc' bindtap='goToDetail' data-id="{{item.f_id}}">
+        <text class='shopname'>{{item.f_name}}</text>
+        <text class='foodinfo'>{{item.f_detail}}</text>
+        <text class='customs'>推荐人数：{{item.f_num}}人</text>
+      </view>
+    </view>
+    <button class='btn'>加载更多</button>
+  </view>

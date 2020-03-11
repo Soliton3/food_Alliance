@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/addUser/addUser",
+    "pages/chat/chat",
+    "pages/follow/follow",
+    "pages/remlist/remlist",
+    "pages/myinfo/myinfo",
+    "pages/advice/advice",
+    "pages/around/around",
+    "pages/msg/msg",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#576b95",
+    "navigationBarTitleText": "吃货联盟",
+    "backgroundColor": "#eeeeee",
+    "navigationBarTextStyle": "white",
+    "endablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#576b95",
+    "selectedColor": "#FF4500",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "圈子",
+        "iconPath": "/images/chat.png",
+        "selectedIconPath": "/images/chat.png"
+      },
+      {
+        "pagePath": "pages/follow/follow",
+        "text": "收藏",
+        "iconPath": "/images/col.png",
+        "selectedIconPath": "/images/col.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/mine.png",
+        "selectedIconPath": "/images/mine.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

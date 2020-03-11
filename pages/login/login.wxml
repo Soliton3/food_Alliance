@@ -1,0 +1,29 @@
+<view class='wrap'>
+    <view class='logo'>
+      <image src='/images/logo.jpg'></image>
+      <text style='color:orange'>吃货联盟欢迎登陆</text>
+    </view>
+    <view wx:if="{{nullMsg}}" class='errMsg'>用户名或密码不能为空</view>
+    <view class='login'>
+      <form bindsubmit='login'>
+          <view class='username'>
+              <label>用户名</label>
+              <input type='text' name="username" placeholder='请输入用户名' bindinput='getin'></input>           
+          </view>
+          <view class='pwd'>
+              <label>密  码</label>
+              <input password name="pwd" placeholder='请输入密码' bindinput='getin'></input>
+             
+          </view>
+          <view wx:if="{{showMsg}}" class='errMsg'>
+            <label>用户名或密码不正确</label>
+          </view>
+
+          <button form-type='submit'>登陆</button>
+
+      </form>
+    </view>
+
+
+
+</view>

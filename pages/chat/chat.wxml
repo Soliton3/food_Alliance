@@ -1,0 +1,42 @@
+<!--pages/chat/chat.wxml-->
+<view class='sc'>
+  <text>吃货小论坛</text>
+</view>
+<view class='page_row' bindtap="find">  
+  <view class="search">  
+    <view class="df search_arr">  
+      <icon class="searchcion" size='20' type='search'></icon>  
+      <input class="" placeholder="请输入关键字" value="{{searchValue}}"/>  
+    </view>  
+  </view>  
+  <button class='fd'>搜索</button> 
+</view>
+<!--展示的内容-->  
+<view class='main'>
+  <view class='head'>
+    <view class='hp'><image src='/images/e.jpeg'></image> </view>
+    <view class='mid'>
+      <text class='title'>吃遍天下</text> 
+      <text class='det'>1天前，发表了文章</text>
+    </view>
+    <view class='add'><image src='/images/add.png' /> </view>
+  </view>
+  <view class='msg'>
+    <text class='tname'>隐藏在小街中的美食</text>
+    <text class='tred'>到南京是不能不吃盐水鸭的。南京嗜鸭之深，乃至有人说南京人前辈子都跟鸭子有仇。不管这个传言有没有根据，但是南京被称为“鸭都”却是实打实的名头。盐水鸭是南京有名的特产，久负盛名，据说至今已有一千多年的历史。南京盐水鸭皮白肉嫩、肥而不腻、鲜香美味，具有香、酥、嫩的特点。每年中秋前后的盐水鸭色味最佳，是因为鸭在桂花盛开季节制作，故美名日：桂花鸭。</text>
+    <text class='like'>点赞人数：1万人</text>
+  </view>
+   <view class='head'>
+    <view class='hp'><image src='/images/e.jpeg'></image> </view>
+    <view class='mid'>
+      <text class='title'>走哪吃哪</text> 
+      <text class='det'>1小时前，发表了文章</text>
+    </view>
+    <view class='add'><image src='/images/add.png' /> </view>
+  </view>
+  <view class='msg'>
+    <text class='tname'>隐藏在小街中的美食</text>
+    <text class='tred'>到南京是不能不吃盐水鸭的。南京嗜鸭之深，乃至有人说南京人前辈子都跟鸭子有仇。不管这个传言有没有根据，但是南京被称为“鸭都”却是实打实的名头。盐水鸭是南京有名的特产，久负盛名，据说至今已有一千多年的历史。南京盐水鸭皮白肉嫩、肥而不腻、鲜香美味，具有香、酥、嫩的特点。每年中秋前后的盐水鸭色味最佳，是因为鸭在桂花盛开季节制作，故美名日：桂花鸭。</text>
+    <text class='like'>点赞人数：1万人</text>
+  </view>
+</view>

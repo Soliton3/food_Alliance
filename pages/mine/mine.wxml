@@ -1,0 +1,34 @@
+<view class='head'>
+  <view wx:if='{{isLogin}}' class='uinfo'>
+    <image src='/images/e.jpeg'></image>
+    <text>小王觅食</text>
+    <!--
+    <text>{{u_name}}</text>
+    -->
+  </view>
+  <button wx:else open-type='getUserinfo' bindgetuserinfo='getMyinfo'>未登录，点击登录</button>
+</view>
+<!--个人页面列表-->
+<view class='cell'>
+  <navigator class='cell-item arrow' bindtap="myInfo" open-type='switchTab'>
+    <text>个人资料</text>
+  </navigator>
+  <navigator class='cell-item arrow' url='/pages/remlist/remlist'>
+    <text>最近浏览</text>
+  </navigator>
+  <navigator class='cell-item arrow' url='/pages/msg/msg'>
+    <text>消息通知</text>
+  </navigator>
+</view>
+<view class='cell'>
+  <view class='cell-te'>
+    <text>联系客服</text>
+    <text class='right'>400-618-8888</text>
+  </view>
+  <navigator class='cell-item arrow' url='/pages/advice/advice'>
+    <text>意见反馈</text>
+  </navigator>
+  <navigator class='cell-item arrow' bindtap="back" open-type='switchTab'>
+    <text>返回首页</text>
+  </navigator>
+</view>

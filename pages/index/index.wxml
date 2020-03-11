@@ -1,0 +1,35 @@
+<view class='container'>
+<!--首页轮播图-->
+  <swiper autoplay circular indicator-dots>
+    <view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+      <swiper-item>
+        <image src='{{item.src}}' mode='widthFix'></image>
+      </swiper-item>
+    </view>
+  </swiper>
+<!--菜单导航-->
+  <view class='nav'>
+    <navigator class='item' url='/pages/around/around?cat={{1}}'>
+      <image src='/images/icon/b.png'></image>
+      <text>推荐</text>
+    </navigator>
+    <navigator class='item' url='/pages/around/around?cat={{2}}'>
+      <image src='/images/icon/a.png'></image>
+      <text>周边</text>
+    </navigator>
+  </view>
+<!--推荐展示-->
+  <view class='main'>
+    <view class='fooditem'  wx:for="{{food}}" wx:key="_id">
+      <view class='fm'>
+        <image src='{{item.f_src}}' mode='aspectFill'></image>
+      </view>
+      <view class='desc' bindtap='goToDetail' data-id="{{item.f_id}}">
+        <text class='shopname'>{{item.f_name}}</text>
+        <text class='foodinfo'>{{item.f_detail}}</text>
+        <text class='customs'>推荐人数：{{item.f_num}}人</text>
+      </view>
+    </view>
+  </view>
+  <button class='btn'>加载更多</button>
+</view>

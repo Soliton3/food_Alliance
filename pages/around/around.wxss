@@ -1,0 +1,60 @@
+/* pages/around/around.wxss */
+.main{
+  width: 100%;
+  height: 530rpx;
+}
+.fooditem{
+  height: 100px;
+  border:1rpx solid #eee; 
+  display: flex;
+}
+.fooditem .fm image{
+  width: 140px;
+  height: 80px;
+  margin: 10rpx;
+  margin-top: 30rpx;
+}
+.fooditem .desc{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10rpx 0;
+}
+.fooditem .desc text{
+  display: block;
+  font-size: 12px;
+}
+.fooditem .desc .shopname{
+  font-size: 14px;
+  font-weight: bold;
+}
+.fooditem .desc .foodinfo{
+  color: gray;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+.fooditem .desc .customs{
+  color: red;
+}
+.btn{
+  width: 100%;
+  height: 80rpx;
+  font-size: 15px;
+  color: gray;
+  position: fixed;
+  bottom: 0;
+}
+.mhead{
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+  font-size: 16px;
+  background-color: ghostwhite;
+  width: 100%;
+  height: 70rpx;
+  color: gray;
+}

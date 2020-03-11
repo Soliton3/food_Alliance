@@ -1,0 +1,28 @@
+<!--pages/chat/chat.wxml-->
+<view class='sc'>
+  <text>我的收藏（{{snum}}）</text>
+</view>
+<view class='page_row' bindtap="find">  
+  <view class="search">  
+    <view class="df search_arr">  
+      <icon class="searchcion" size='20' type='search'></icon>  
+      <input class="" placeholder="请输入关键字" value="{{searchValue}}"/>  
+    </view>  
+  </view>  
+  <button class='fd'>搜索</button> 
+</view>
+<!--展示的内容-->  
+<view class='main'wx:for="{{foodsList}}" wx:key="{{item.f_id}}">
+  <view class='head'>
+    <view class='hp'><image src='/images/e.jpeg'></image> </view>
+    <view class='mid'>
+      <text class='title'>吃遍天下</text> 
+      <text class='det'>1天前，发表了文章</text>
+    </view>
+  </view>
+  <view class='msg'bindtap='goToDetail' data-id="{{item.f_id}}">
+    <text class='tname'>{{item.f_name}}</text>
+    <text class='tred'>{{item.f_detail}}</text>
+    <text class='like'>推荐人数：{{item.f_num}}万人</text>
+  </view>
+</view>

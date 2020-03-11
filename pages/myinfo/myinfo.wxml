@@ -1,0 +1,14 @@
+<view>
+  <view class='head'>
+    <image src='/images/e.jpeg'></image>
+  </view>
+  <view class='myitems'>
+    <text class='item_detail'>账号：123456789</text>
+    <text class='item_detail'>昵称：走遍天下</text>
+    <text class='item_detail'>个人签名：吃遍天下美食</text>
+    <text class='item_detail'>性别：保密</text>
+    <text class='item_detail'>生日：2020-01-01</text>
+    <text class='item_detail'>职业：IT工程师</text>
+    <text class='item_detail'>故乡：江西省南昌市新建县</text>
+  </view>
+</view>

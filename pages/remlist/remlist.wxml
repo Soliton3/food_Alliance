@@ -1,0 +1,23 @@
+<!--pages/remlist/remlist.wxml-->
+<view>  
+  <view class='title'>
+    <text>{{food.f_name}}</text>
+  </view>
+  <view class='poster'>
+    <image src='{{food.f_src}}'></image>
+    <text class='pc'>{{food.f_detail}}</text>
+  </view>
+  <view class='cmsg'>
+    <text>地址：南京市新街口180号</text>
+    <text>电话：133-3333-4444</text>
+  </view>
+  <view class='divers'></view>
+  <view class='com'>
+    <text>吃货点评（1）</text>
+    <view>
+      <text>好吃！</text>
+    </view>
+  </view>
+  <button wx:if = '{{isAdd}}' plain bindtap='cancelLike'>♥已收藏</button>
+  <button wx:else plain bindtap='addLike'>♥未收藏</button>
+</view>

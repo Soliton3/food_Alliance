@@ -1,0 +1,9 @@
+<view class='ad'>
+  <text class='it'>程序猿在努力开发中。。。</text>
+  <text>卡顿问题?</text>
+  <text>加载、闪退问题?</text>
+  <text>账号问题?</text>
+  <text>内容问题?</text>
+  <text>会员问题?</text>
+  <text>其他问题?</text>
+</view>

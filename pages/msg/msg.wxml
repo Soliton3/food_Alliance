@@ -1,0 +1,16 @@
+<!--pages/msg/msg.wxml-->
+<view>
+  <view class='mhead'>
+    <text>消息列表</text>
+  </view>
+  <view class='mitems'>
+    <text class='mtitle'>关注</text>
+    <text class='mde'>隐藏在小街中的美食</text>
+    <text class='mtime'>一周前</text>
+  </view>
+  <view class='mitems'>
+    <text class='mtitle'>邀请</text>
+    <text class='mde'>传统工艺创造的小吃美食</text>
+    <text class='mtime'>一月前</text>
+  </view>
+</view>

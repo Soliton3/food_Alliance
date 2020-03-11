@@ -1,0 +1,112 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.2",
+	"appid": "wx109c40fd7a74ab4b",
+	"projectname": "food_Alliance",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "add",
+					"pathName": "pages/addUser/addUser",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "chat",
+					"pathName": "pages/chat/chat",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mine",
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/remlist/remlist",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "shoucang",
+					"pathName": "pages/follow/follow",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myinfo",
+					"pathName": "pages/myinfo/myinfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "advice",
+					"pathName": "pages/advice/advice",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "msg",
+					"pathName": "pages/msg/msg",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "周边",
+					"pathName": "pages/around/around"
+				}
+			]
+		}
+	}
+}
